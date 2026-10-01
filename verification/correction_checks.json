@@ -1,0 +1,76 @@
+{
+  "version": "1.1",
+  "status": "PASS",
+  "scope": [
+    "Scrap on all passes",
+    "Future OEE unavailable",
+    "Capacity-to-demand ratio correctly labeled"
+  ],
+  "quality_regression_tests_passed": 5,
+  "pipeline_checks_passed": 21,
+  "pipeline_checks_total": 21,
+  "pipeline_critical_issues": 0,
+  "pipeline_warnings": [
+    "2 changement(s) présentent un premier article FAIL; ils sont conservés dans l'analyse qualité."
+  ],
+  "scrap_units": 6,
+  "scrap_by_station": {
+    "ST10": 0,
+    "ST20": 0,
+    "ST30": 0,
+    "ST40": 1,
+    "ST50": 3,
+    "ST60": 2,
+    "ST70": 0
+  },
+  "first_pass_events": 25493,
+  "good_first_pass_events": 25361,
+  "overall_fpy": 0.9948221080296552,
+  "baseline_ST50_OEE": 0.8334090909090909,
+  "future_ST50_OEE": null,
+  "scenario_reference_capacity_units_per_day": 189.22005223862737,
+  "estimated_demand_coverage": 0.9010478678029875,
+  "unchanged_baseline_kpis": true,
+  "unchanged_data_files": [
+    "data/raw/changeovers.csv",
+    "data/raw/production.csv",
+    "data/raw/quality.csv",
+    "data/raw/downtime.csv",
+    "data/processed/changeovers.csv",
+    "data/processed/production.csv",
+    "data/processed/validation_summary.json",
+    "data/processed/quality.csv",
+    "data/processed/downtime.csv"
+  ],
+  "source_sha256": {
+    "production.csv": "9ea5cfff8bb382759bff0dedc4c85eccb2fa197b40844bce1e6eed8b4c426508",
+    "downtime.csv": "9db00b36a1ee0bbf7d3703f0f8ef48de4c5b24b77bbee6f20f760921d30ece23",
+    "quality.csv": "6533b1438c24fb3d7ea3889d776a3ae2b490fe69035a30e7c87487f53ad8d60e",
+    "changeovers.csv": "d8c34be6f13b2ad72bea9640ca6bf0ab5787dd1b3603f88211531d315e5361a1",
+    "validation_summary.json": "8b5ca71730f86aaba187b63d260688c6c847f83e2292dec89b4ae8b2d7330541"
+  },
+  "workbook_changed_cells": [
+    "Avant-Après!A25",
+    "Avant-Après!A4",
+    "Avant-Après!D11",
+    "Avant-Après!E11",
+    "Avant-Après!E6",
+    "Avant-Après!F11",
+    "Avant-Après!G11",
+    "Avant-Après!H11",
+    "Calculs!A32",
+    "Calculs!A34",
+    "Calculs!A4",
+    "Calculs!B32",
+    "Calculs!B39",
+    "Calculs!D32",
+    "Calculs!D39",
+    "Calculs!E31",
+    "Calculs!E32",
+    "Calculs!E34",
+    "Calculs!E39"
+  ],
+  "native_chart_verified": true,
+  "unrelated_workbook_content_and_styles_preserved": true,
+  "report_pages": 25
+}

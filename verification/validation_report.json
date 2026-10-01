@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "checks_total": 21,
+  "checks_passed": 21,
+  "critical_issues": 0,
+  "warning_count": 1,
+  "warnings": [
+    "2 changement(s) présentent un premier article FAIL; ils sont conservés dans l'analyse qualité."
+  ],
+  "checks": [
+    {
+      "name": "schema_production",
+      "passed": true,
+      "critical": true,
+      "detail": "Schéma complet"
+    },
+    {
+      "name": "unique_production_event_id",
+      "passed": true,
+      "critical": true,
+      "detail": "Doublons: 0"
+    },
+    {
+      "name": "non_empty_production",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes: 25,625"
+    },
+    {
+      "name": "schema_downtime",
+      "passed": true,
+      "critical": true,
+      "detail": "Schéma complet"
+    },
+    {
+      "name": "unique_downtime_id",
+      "passed": true,
+      "critical": true,
+      "detail": "Doublons: 0"
+    },
+    {
+      "name": "non_empty_downtime",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes: 949"
+    },
+    {
+      "name": "schema_quality",
+      "passed": true,
+      "critical": true,
+      "detail": "Schéma complet"
+    },
+    {
+      "name": "unique_quality_event_id",
+      "passed": true,
+      "critical": true,
+      "detail": "Doublons: 0"
+    },
+    {
+      "name": "non_empty_quality",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes: 25,625"
+    },
+    {
+      "name": "schema_changeovers",
+      "passed": true,
+      "critical": true,
+      "detail": "Schéma complet"
+    },
+    {
+      "name": "unique_changeover_id",
+      "passed": true,
+      "critical": true,
+      "detail": "Doublons: 0"
+    },
+    {
+      "name": "non_empty_changeovers",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes: 360"
+    },
+    {
+      "name": "production_quality_row_count",
+      "passed": true,
+      "critical": true,
+      "detail": "production=25,625; quality=25,625"
+    },
+    {
+      "name": "quality_referential_integrity",
+      "passed": true,
+      "critical": true,
+      "detail": "Liens manquants=0; liens orphelins=0"
+    },
+    {
+      "name": "production_durations_nonnegative",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes invalides: 0"
+    },
+    {
+      "name": "production_time_reconciliation",
+      "passed": true,
+      "critical": true,
+      "detail": "Écart maximal: 0.0 s"
+    },
+    {
+      "name": "downtime_duration_positive",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes invalides: 0"
+    },
+    {
+      "name": "changeover_duration_positive",
+      "passed": true,
+      "critical": true,
+      "detail": "Lignes invalides: 0"
+    },
+    {
+      "name": "planned_downtime_changeover_reconciliation",
+      "passed": true,
+      "critical": true,
+      "detail": "Écarts par poste: {'ST10': 0.0, 'ST20': 0.0, 'ST30': 0.0, 'ST40': 0.0, 'ST50': 0.0, 'ST60': 0.0, 'ST70': 0.0}"
+    },
+    {
+      "name": "changeover_first_article_domain",
+      "passed": true,
+      "critical": true,
+      "detail": "Valeurs observées: ['FAIL', 'PASS']"
+    },
+    {
+      "name": "changeover_first_article_results_counted",
+      "passed": true,
+      "critical": false,
+      "detail": "Premiers articles FAIL observés: 2"
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "project": "EMA-120 Industrial Performance & Industry 4.0",
+  "day": "J06",
+  "validation_run_date": "2026-09-29",
+  "timezone": "Europe/Paris",
+  "status": "PASS",
+  "critical_issues": 0,
+  "warnings": 0,
+  "checks_total": 39,
+  "checks_passed": 39,
+  "checks": [
+    {
+      "check_id": "VAL-01",
+      "scope": "production",
+      "control": "Schéma et ordre des colonnes",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "21 colonnes conformes au dictionnaire."
+    },
+    {
+      "check_id": "VAL-02",
+      "scope": "production",
+      "control": "Clé primaire unique",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "25,625 clés uniques."
+    },
+    {
+      "check_id": "VAL-03",
+      "scope": "production",
+      "control": "Champs obligatoires non vides",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucune valeur obligatoire manquante."
+    },
+    {
+      "check_id": "VAL-04",
+      "scope": "production",
+      "control": "Espaces parasites",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun espace parasite détecté."
+    },
+    {
+      "check_id": "VAL-05",
+      "scope": "downtime",
+      "control": "Schéma et ordre des colonnes",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "18 colonnes conformes au dictionnaire."
+    },
+    {
+      "check_id": "VAL-06",
+      "scope": "downtime",
+      "control": "Clé primaire unique",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "949 clés uniques."
+    },
+    {
+      "check_id": "VAL-07",
+      "scope": "downtime",
+      "control": "Champs obligatoires non vides",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucune valeur obligatoire manquante."
+    },
+    {
+      "check_id": "VAL-08",
+      "scope": "downtime",
+      "control": "Espaces parasites",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun espace parasite détecté."
+    },
+    {
+      "check_id": "VAL-09",
+      "scope": "changeovers",
+      "control": "Schéma et ordre des colonnes",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "19 colonnes conformes au dictionnaire."
+    },
+    {
+      "check_id": "VAL-10",
+      "scope": "changeovers",
+      "control": "Clé primaire unique",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "360 clés uniques."
+    },
+    {
+      "check_id": "VAL-11",
+      "scope": "changeovers",
+      "control": "Champs obligatoires non vides",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucune valeur obligatoire manquante."
+    },
+    {
+      "check_id": "VAL-12",
+      "scope": "changeovers",
+      "control": "Espaces parasites",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun espace parasite détecté."
+    },
+    {
+      "check_id": "VAL-13",
+      "scope": "quality",
+      "control": "Schéma et ordre des colonnes",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "22 colonnes conformes au dictionnaire."
+    },
+    {
+      "check_id": "VAL-14",
+      "scope": "quality",
+      "control": "Clé primaire unique",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "25,625 clés uniques."
+    },
+    {
+      "check_id": "VAL-15",
+      "scope": "quality",
+      "control": "Champs obligatoires non vides",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucune valeur obligatoire manquante."
+    },
+    {
+      "check_id": "VAL-16",
+      "scope": "quality",
+      "control": "Espaces parasites",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun espace parasite détecté."
+    },
+    {
+      "check_id": "VAL-17",
+      "scope": "production",
+      "control": "Horodatages lisibles",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Tous les horodatages sont ISO 8601."
+    },
+    {
+      "check_id": "VAL-18",
+      "scope": "production",
+      "control": "Durées et cycles réconciliés",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "elapsed_time_s = net_cycle_time_s + downtime_overlap_s pour toutes les lignes."
+    },
+    {
+      "check_id": "VAL-19",
+      "scope": "production",
+      "control": "Cycles physiquement plausibles",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun cycle nul, négatif ou supérieur à deux fois le standard net."
+    },
+    {
+      "check_id": "VAL-20",
+      "scope": "production",
+      "control": "Standards par poste",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Tous les temps standards correspondent au référentiel ST10-ST70."
+    },
+    {
+      "check_id": "VAL-21",
+      "scope": "production",
+      "control": "Date et équipe cohérentes",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Les dates et équipes correspondent aux heures de début."
+    },
+    {
+      "check_id": "VAL-22",
+      "scope": "production",
+      "control": "Domaines de valeurs",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Postes, variantes, passages, résultats et booléens sont valides."
+    },
+    {
+      "check_id": "VAL-23",
+      "scope": "production",
+      "control": "Chaînage previous_station_event_id",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Tous les événements précédents existent et concernent le même produit."
+    },
+    {
+      "check_id": "VAL-24",
+      "scope": "production",
+      "control": "Variantes et séquences de gamme",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Chaque produit conserve sa variante et suit la gamme ST10-ST70 avec reprises locales."
+    },
+    {
+      "check_id": "VAL-25",
+      "scope": "production",
+      "control": "Absence de chevauchement par poste",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun chevauchement d'opérations sur un même poste."
+    },
+    {
+      "check_id": "VAL-26",
+      "scope": "downtime",
+      "control": "Horodatages et durées",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Toutes les durées d'arrêt correspondent aux horodatages et aux équipes."
+    },
+    {
+      "check_id": "VAL-27",
+      "scope": "downtime",
+      "control": "Domaines de valeurs",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Catégories, postes et booléens sont valides."
+    },
+    {
+      "check_id": "VAL-28",
+      "scope": "downtime",
+      "control": "Clés étrangères",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Tous les produits et changements de série référencés existent."
+    },
+    {
+      "check_id": "VAL-29",
+      "scope": "downtime",
+      "control": "Règle micro-arrêt",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Tous les micro-arrêts respectent le seuil de 60 s."
+    },
+    {
+      "check_id": "VAL-30",
+      "scope": "downtime",
+      "control": "Absence de chevauchement par équipement",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun arrêt ne se chevauche sur un même équipement."
+    },
+    {
+      "check_id": "VAL-31",
+      "scope": "changeovers",
+      "control": "Horodatages et durées",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Toutes les durées de changement correspondent aux horodatages."
+    },
+    {
+      "check_id": "VAL-32",
+      "scope": "changeovers",
+      "control": "Variantes et domaines",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Les transitions utilisent deux variantes différentes et des valeurs autorisées."
+    },
+    {
+      "check_id": "VAL-33",
+      "scope": "changeovers",
+      "control": "Premier article",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Chaque premier article existe, correspond au poste et appartient à la variante cible."
+    },
+    {
+      "check_id": "VAL-34",
+      "scope": "inter-fichiers",
+      "control": "Changement de série, arrêt et production",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Les 360 changements ont chacun un arrêt identique et un premier événement de production lié."
+    },
+    {
+      "check_id": "VAL-35",
+      "scope": "inter-fichiers",
+      "control": "Arrêts non planifiés et downtime_overlap_s",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Les 589 arrêts non planifiés sont inclus dans une opération et leurs durées sont réconciliées."
+    },
+    {
+      "check_id": "VAL-36",
+      "scope": "inter-fichiers",
+      "control": "Couverture qualité de la production",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Chaque opération de production possède exactement un contrôle qualité."
+    },
+    {
+      "check_id": "VAL-37",
+      "scope": "inter-fichiers",
+      "control": "Liens des événements qualité",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Produit, variante, poste, équipe, heure et résultat concordent avec production.csv."
+    },
+    {
+      "check_id": "VAL-38",
+      "scope": "quality",
+      "control": "Règles PASS, REWORK et SCRAP",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Toutes les dispositions, durées de retouche et indicateurs sont cohérents."
+    },
+    {
+      "check_id": "VAL-39",
+      "scope": "inter-fichiers",
+      "control": "Aucune acceptation après rebut",
+      "status": "PASS",
+      "issue_count": 0,
+      "detail": "Aucun produit rebuté n'atteint ST70 comme produit accepté."
+    }
+  ],
+  "input_rows": {
+    "production": 25625,
+    "downtime": 949,
+    "changeovers": 360,
+    "quality": 25625
+  },
+  "output_rows": {
+    "production": 25625,
+    "downtime": 949,
+    "changeovers": 360,
+    "quality": 25625
+  },
+  "raw_sha256": {
+    "production": "9ea5cfff8bb382759bff0dedc4c85eccb2fa197b40844bce1e6eed8b4c426508",
+    "downtime": "9db00b36a1ee0bbf7d3703f0f8ef48de4c5b24b77bbee6f20f760921d30ece23",
+    "changeovers": "d8c34be6f13b2ad72bea9640ca6bf0ab5787dd1b3603f88211531d315e5361a1",
+    "quality": "6533b1438c24fb3d7ea3889d776a3ae2b490fe69035a30e7c87487f53ad8d60e"
+  },
+  "processed_sha256": {
+    "production": "9ea5cfff8bb382759bff0dedc4c85eccb2fa197b40844bce1e6eed8b4c426508",
+    "downtime": "9db00b36a1ee0bbf7d3703f0f8ef48de4c5b24b77bbee6f20f760921d30ece23",
+    "changeovers": "d8c34be6f13b2ad72bea9640ca6bf0ab5787dd1b3603f88211531d315e5361a1",
+    "quality": "6533b1438c24fb3d7ea3889d776a3ae2b490fe69035a30e7c87487f53ad8d60e"
+  },
+  "processed_dir": "data/processed",
+  "report_path": "output/docs/06_Data_Validation_Report.md",
+  "observations": {
+    "products_launched": 4200,
+    "products_completed": 3144,
+    "products_scrapped": 6,
+    "products_in_wip_at_cutoff": 1050,
+    "quality_defect_events": 138,
+    "defect_events_with_unknown_origin": 22
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "project": "EMA-120 Industrial Performance & Industry 4.0",
+  "daily_customer_demand_units": 210,
+  "shifts_per_day": 2,
+  "planned_minutes_per_shift": 440,
+  "primary_station": "ST50",
+  "station_order": ["ST10", "ST20", "ST30", "ST40", "ST50", "ST60", "ST70"],
+  "process_names": {
+    "ST10": "Kitting et vérification",
+    "ST20": "Préassemblage mécanique",
+    "ST30": "Montage arbre et roulements",
+    "ST40": "Assemblage et serrage contrôlé",
+    "ST50": "Essai fonctionnel",
+    "ST60": "Contrôle qualité",
+    "ST70": "Identification et conditionnement"
+  },
+  "standard_cycle_time_s": {
+    "ST10": 180,
+    "ST20": 215,
+    "ST30": 240,
+    "ST40": 225,
+    "ST50": 285,
+    "ST60": 200,
+    "ST70": 160
+  }
+}
+

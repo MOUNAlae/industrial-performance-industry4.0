@@ -1,0 +1,38 @@
+{
+  "project": "EMA-120 Industrial Performance & Industry 4.0",
+  "overall_kpis": {
+    "production_days": 20,
+    "daily_customer_demand_units": 210.0,
+    "observed_output_units_per_day": 157.2,
+    "output_attainment": 0.7485714285714286,
+    "bottleneck_station": "ST50",
+    "bottleneck_effective_load_s_per_unit": 329.4122306717364,
+    "bottleneck_reference_capacity_units_per_day": 160.285487555609,
+    "primary_station": "ST50",
+    "primary_station_oee": 0.8334090909090909,
+    "primary_station_availability": 0.9114251893939394,
+    "primary_station_performance": 0.934537879299507,
+    "primary_station_quality": 0.9784537389100126
+  },
+  "downtime_summary": {
+    "event_count": 589,
+    "duration_s": 74026.0,
+    "primary_station": "ST50",
+    "primary_event_count": 129,
+    "primary_duration_s": 26035.0
+  },
+  "quality_summary": {
+    "total_first_pass": 25493,
+    "good_first_pass": 25361,
+    "first_pass_fail": 132,
+    "overall_fpy": 0.9948221080296552,
+    "scrap_units": 6
+  },
+  "source_hashes": {
+    "production.csv": "9ea5cfff8bb382759bff0dedc4c85eccb2fa197b40844bce1e6eed8b4c426508",
+    "downtime.csv": "9db00b36a1ee0bbf7d3703f0f8ef48de4c5b24b77bbee6f20f760921d30ece23",
+    "quality.csv": "6533b1438c24fb3d7ea3889d776a3ae2b490fe69035a30e7c87487f53ad8d60e",
+    "changeovers.csv": "d8c34be6f13b2ad72bea9640ca6bf0ab5787dd1b3603f88211531d315e5361a1",
+    "validation_summary.json": "8b5ca71730f86aaba187b63d260688c6c847f83e2292dec89b4ae8b2d7330541"
+  }
+}
